@@ -1,0 +1,39 @@
+.fourth{
+    display: flex;
+    justify-content: space-around;
+}
+.bread{
+    width: 550px;
+    background-color: rgb(255, 240, 171);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    border-radius: 20px;
+}
+.snack{
+    width: 230px;
+}
+.food{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.food h2{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.food button{
+    width: 120px;
+    height: 40px;
+    border: 1px solid grey;
+    border-radius: 10px;
+    background: transparent;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+    transition-delay: 0s;
+    margin-top: 10px;
+}
+.food button:hover{
+    color: white;
+    background-color: rgb(198, 198, 255);
+}
